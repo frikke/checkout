@@ -1,5 +1,51 @@
 # Changelog
 
+## v4.2.2
+* `url-helper.ts` now leverages well-known environment variables by @jww3 in https://github.com/actions/checkout/pull/1941
+* Expand unit test coverage for `isGhes` by @jww3 in https://github.com/actions/checkout/pull/1946
+
+## v4.2.1
+* Check out other refs/* by commit if provided, fall back to ref by @orhantoy in https://github.com/actions/checkout/pull/1924
+
+## v4.2.0
+
+* Add Ref and Commit outputs by @lucacome in https://github.com/actions/checkout/pull/1180
+* Dependency updates by @dependabot- https://github.com/actions/checkout/pull/1777, https://github.com/actions/checkout/pull/1872
+
+## v4.1.7
+* Bump the minor-npm-dependencies group across 1 directory with 4 updates by @dependabot in https://github.com/actions/checkout/pull/1739
+* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/actions/checkout/pull/1697
+* Check out other refs/* by commit by @orhantoy in https://github.com/actions/checkout/pull/1774
+* Pin actions/checkout's own workflows to a known, good, stable version. by @jww3 in https://github.com/actions/checkout/pull/1776
+
+## v4.1.6
+* Check platform to set archive extension appropriately by @cory-miller in https://github.com/actions/checkout/pull/1732
+
+## v4.1.5
+* Update NPM dependencies by @cory-miller in https://github.com/actions/checkout/pull/1703
+* Bump github/codeql-action from 2 to 3 by @dependabot in https://github.com/actions/checkout/pull/1694
+* Bump actions/setup-node from 1 to 4 by @dependabot in https://github.com/actions/checkout/pull/1696
+* Bump actions/upload-artifact from 2 to 4 by @dependabot in https://github.com/actions/checkout/pull/1695
+* README: Suggest `user.email` to be `41898282+github-actions[bot]@users.noreply.github.com` by @cory-miller in https://github.com/actions/checkout/pull/1707
+
+## v4.1.4
+- Disable `extensions.worktreeConfig` when disabling `sparse-checkout` by @jww3 in https://github.com/actions/checkout/pull/1692
+- Add dependabot config by @cory-miller in https://github.com/actions/checkout/pull/1688
+- Bump the minor-actions-dependencies group with 2 updates by @dependabot in https://github.com/actions/checkout/pull/1693
+- Bump word-wrap from 1.2.3 to 1.2.5 by @dependabot in https://github.com/actions/checkout/pull/1643
+
+## v4.1.3
+- Check git version before attempting to disable `sparse-checkout` by @jww3 in https://github.com/actions/checkout/pull/1656
+- Add SSH user parameter by @cory-miller in https://github.com/actions/checkout/pull/1685
+- Update `actions/checkout` version in `update-main-version.yml` by @jww3 in https://github.com/actions/checkout/pull/1650
+
+## v4.1.2
+- Fix: Disable sparse checkout whenever `sparse-checkout` option is not present @dscho in https://github.com/actions/checkout/pull/1598
+
+## v4.1.1
+- Correct link to GitHub Docs by @peterbe in https://github.com/actions/checkout/pull/1511
+- Link to release page from what's new section by @cory-miller in https://github.com/actions/checkout/pull/1514
+
 ## v4.1.0
 - [Add support for partial checkout filters](https://github.com/actions/checkout/pull/1396)
 
